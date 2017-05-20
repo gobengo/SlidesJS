@@ -27,7 +27,7 @@
 			$('.' + option.container, $(this)).children().wrapAll('<div class="slides_control"/>');
 			
 			var elem = $(this),
-				control = $('.slides_control',elem),
+				control = $('.' + option.container,elem),
 				total = control.children().size(),
 				width = control.children().outerWidth(),
 				height = control.children().outerHeight(),
