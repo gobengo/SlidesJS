@@ -513,7 +513,7 @@
 		fadeEasing: '', // string, must load jQuery's easing plugin before http://gsgd.co.uk/sandbox/jquery/easing/
 		slideSpeed: 350, // number, Set the speed of the sliding animation in milliseconds
 		slideEasing: '', // string, must load jQuery's easing plugin before http://gsgd.co.uk/sandbox/jquery/easing/
-		start: 1, // number, Set the speed of the sliding animation in milliseconds
+		start: 1, // number, Set the first slide in the slideshow
 		effect: 'slide', // string, '[next/prev], [pagination]', e.g. 'slide, fade' or simply 'fade' for both
 		crossfade: false, // boolean, Crossfade images in a image based slideshow
 		randomize: false, // boolean, Set to true to randomize slides
